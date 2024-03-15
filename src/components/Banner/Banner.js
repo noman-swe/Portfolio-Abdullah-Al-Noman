@@ -1,9 +1,14 @@
 import React from 'react';
+import LeftBanner from './LeftBanner';
+import RightBanner from './RightBanner';
 
 const Banner = () => {
+
     return (
-        <section id='home' className='w-full h-[800px] pb-20 flex border-b-[1px] border-b-black'>
-            
+        <section id='home' className='w-full pt-10 pb-20 flex items-center Montserrat border-b-[1px] border-b-black'>
+            <LeftBanner />
+            <RightBanner />
+
         </section>
     );
 };
