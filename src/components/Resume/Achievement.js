@@ -15,7 +15,7 @@ const Achievement = () => {
 
                 <div className="left">
                     <div>
-                        <TitleResume title='Left Achivement' subTitle={'1900 - 2000'} />
+                        <TitleResume title='Left Achivement' subTitle={'Features'} />
                     </div>
 
                     <div className='resume-card-section'>

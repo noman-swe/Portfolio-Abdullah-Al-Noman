@@ -6,34 +6,34 @@ import TitleResume from './TitleResume';
 const Exprience = () => {
     return (
         <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1, transition: { duration: .5 } }}
-         className=' font-titleFont flex gap-20'>
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { duration: .5 } }}
+            className=' font-titleFont flex gap-20'>
             <div className='w-full flex gap-20'>
 
                 <div className="left">
                     <div>
-                        <TitleResume title='Soft Exprience Skill' subTitle={'1900 - 2000'} />
+                        <TitleResume title='Job Experience' subTitle={'Features'} />
                     </div>
 
                     <div className='resume-card-section'>
                         <ResumeCard
-                            subTitle='BSc in Software Enginering'
-                            title="Daffodill International University"
-                            result="3.00/4"
-                            des="Trainging Priovded by the univercities in order to prepare people to work various sectors of the econmy or areas of culture."
+                            title="Font-end Developer"
+                            subTitle='Grap View - ( Apr-22 to Feb-23 )'
+                            result="Ashulia"
+                            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
                         />
                         <ResumeCard
-                            subTitle='HSC Education'
-                            title="Mahmudul Hasan College(13/14)"
-                            result="4.00/5"
-                            des="Heigher education is tertiary eduction deading to award of and academic degree. Heigher education is also called post-secendary education"
+                            title="Web Developer & Trainer"
+                            subTitle='Local Institute - (Jun-21 to Mar-22)'
+                            result="Tangail"
+                            des="A locally popular destination with a growing number of skilled young men power, it's true that securing a role as a Trainer isn't too easy."
                         />
                         <ResumeCard
-                            title="Secondary School Education"
-                            subTitle='Police Lines High School, Tangail.'
-                            result="4.75/5"
-                            des="Secondary education is post-primmary eduction covers two phases pm the international standard class fication of education scale"
+                            title="PSD To HTML Responsive Designer"
+                            subTitle='Freelancing - (Feb-20 to Nov-20)'
+                            result="Remote"
+                            des="I had work on PSD to HTML web design. I love to take challenges. I am using the most advanced CSS methods including Flexbox, Grid, Animation and Frameworks like Bootstrap  Tailwind-css."
                         />
                     </div>
                 </div>
@@ -41,15 +41,15 @@ const Exprience = () => {
                 {/* righ-side */}
                 <div className="right">
                     <div>
-                        <TitleResume title='Hard Exprience Skill' subTitle={'Features'} />
+                        <TitleResume title='Trainer Experience' subTitle={'Features'} />
                     </div>
 
                     <div className='resume-card-section'>
                         <ResumeCard
-                            title="Grap View"
-                            subTitle='BSc in Software Enginering'
+                            title="W3 School"
+                            subTitle='Bla Bla'
                             result="Malaysia"
-                            des="Malaysia Trainging Priovded by the univercities in order to prepare people to work various sectors of the econmy or areas of culture."
+                            des=" hiring process is an important part of our culture. Developers care deeply about their teams and the people who make them up."
                         />
                         <ResumeCard
                             title="Web Developer & Trainer"

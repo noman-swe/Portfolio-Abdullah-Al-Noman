@@ -9,26 +9,26 @@ const Education = () => {
 
             <div className="left-education">
                 <div>
-                    <TitleResume title='educational Quality' subTitle={'1900 - 2000'} />
+                    <TitleResume title='Educational Background' subTitle={'Features'} />
                 </div>
 
                 <div className='resume-card-section'>
                     <ResumeCard
-                        subTitle='BSc in Software Enginering'
                         title="Daffodill International University"
-                        result="3.00/4"
+                        subTitle='BSc in Software Enginering'
+                        result="2016-21"
                         des="Trainging Priovded by the univercities in order to prepare people to work various sectors of the econmy or areas of culture."
                     />
                     <ResumeCard
-                        subTitle='HSC Education'
+                        subTitle='Higher Secondary Education.'
                         title="Mahmudul Hasan College(13/14)"
-                        result="4.00/5"
+                        result="2013-14"
                         des="Heigher education is tertiary eduction deading to award of and academic degree. Heigher education is also called post-secendary education"
                     />
                     <ResumeCard
-                        title="Secondary School Education"
-                        subTitle='Police Lines High School, Tangail.'
-                        result="4.75/5"
+                        title="Police Lines High School, Tangail."
+                        subTitle='Secondary School Education.'
+                        result="2008-12"
                         des="Secondary education is post-primmary eduction covers two phases pm the international standard class fication of education scale"
                     />
                 </div>
@@ -37,7 +37,7 @@ const Education = () => {
             {/* righ-side */}
             <div className="right-education">
                 <div>
-                    <TitleResume title='Job Exprience' subTitle={'1998-2010'} />
+                    <TitleResume title='Trainee Certifications' subTitle={'Features'} />
                 </div>
 
                 <div className='resume-card-section'>
