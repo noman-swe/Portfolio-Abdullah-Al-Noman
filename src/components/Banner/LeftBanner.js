@@ -15,7 +15,7 @@ const LeftBanner = () => {
     })
 
     return (
-        <div className='w-1/2 flex flex-col gap-20'>
+        <div className='w-full lg:w-1/2 flex flex-col gap-20'>
             <div className='flex flex-col gap-5'>
                 <h4 className='text-lg font-normal uppercase'>WELLcome TO MY WORLD</h4>
                 <h1 className='text-6xl font-bold text-white'>
@@ -33,11 +33,11 @@ const LeftBanner = () => {
                     />
                 </h2>
                 <p className="text-base font-bodyFont leading-6 tracking-wide">
-                    I use animation as a third dimension by which to simplify experiences and kuiding through each and every interaction. I'm not adding motion just to spruce things up, nut doing it in ways that.
+                I have completed Bachelor of Science in Software Engineering. I am experienced with HTML, CSS, JavaScript and React Js. 
                 </p>
             </div>
             {/* banner footer */}
-            <div className='banner-footer flex justify-between'>
+            <div className='banner-footer flex flex-col xl:flex-row gap-6 lg:gap-0 justify-between'>
 
                 <div className='find-me-in'>
                     <h2 className='text-base uppercase font-titleFont mb-4'>Find Me In</h2>

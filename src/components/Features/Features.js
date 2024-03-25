@@ -7,44 +7,60 @@ import { SiProgress, SiAntdesign } from 'react-icons/si';
 
 
 const Features = () => {
+
+    const featuresData = [
+        {
+            id: 1,
+            icon: <FaBars />,
+            title: "Business Stratagy",
+            des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+        },
+        {
+            id: 2,
+            icon: <AiFillAppstore />,
+            title: "App Development",
+            des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+        },
+        {
+            id: 3,
+            icon: <SiProgress />,
+            title: "SEO Optimisation",
+            des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+        },
+        {
+            id: 4,
+            icon: <FaMobile />,
+            title: "Mobile Development",
+            des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+        },
+        {
+            id: 5,
+            icon: <SiAntdesign />,
+            title: "UX Design",
+            des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+        },
+        {
+            id: 6,
+            icon: <FaGlobe />,
+            title: "Hosting Websites",
+            des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+        },
+    ];
+
     return (
-        <section id='features' className='w-full  py-20 flex flex-col border-b-[1px] border-b-black'>
+        <section id='features' className='w-full py-20 border-b-[1px] border-b-black'>
             <Title title="Features" des="What i do"></Title>
             {/*  */}
-            
-            <div className='grid grid-cols-3 gap-20'>
-                <Card
-                    title="Business Sratagy"
-                    des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur numquam cupiditate odit hic! Id!"
-                    icon={<FaBars />}
-                />
-                <Card
-                    title="App Development"
-                    des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur numquam cupiditate odit hic! Id!"
-                    icon={<AiFillAppstore />}
-                />
-                <Card
-                    title="Seo Optimisation"
-                    des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur numquam cupiditate odit hic! Id!"
-                    icon={<SiProgress />}
-                />
-                <Card
-                    title="Mobile Development"
-                    des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur numquam cupiditate odit hic! Id!"
-                    icon={<FaMobile />}
-                />
 
-                <Card
-                    title="UX Design"
-                    des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur numquam cupiditate odit hic! Id!"
-                    icon={<SiAntdesign />}
-                />
-                <Card
-                    title="Hosting Website"
-                    des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur numquam cupiditate odit hic! Id!"
-                    icon={<FaGlobe />}
-                />
-               
+            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20'>
+                {
+                    featuresData.map((item) =>
+                        <Card
+                            item={item}
+                            key={item.id}
+                        ></Card>)
+                }
+
             </div>
         </section>
     );

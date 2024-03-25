@@ -9,7 +9,7 @@ const Exprience = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: .5 } }}
             className=' font-titleFont flex gap-20'>
-            <div className='w-full flex gap-20'>
+            <div className='w-full flex flex-col lg:flex-row gap-10 lg:gap-20'>
 
                 <div className="left">
                     <div>

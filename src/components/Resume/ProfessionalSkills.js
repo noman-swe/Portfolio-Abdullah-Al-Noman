@@ -9,9 +9,9 @@ const ProfessionalSkills = () => {
         <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: .5 } }}
-            className=' w-full flex gap-20'>
+            className='w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20'>
 
-            <div className="left w-1/2">
+            <div className="w-full lg:w-1/2">
                 <div>
                     <TitleResume title='Design Skill' subTitle={'1900 - 2000'} />
                 </div>
@@ -105,12 +105,12 @@ const ProfessionalSkills = () => {
             </div>
 
             {/* righ-side */}
-            <div className="right w-1/2">
+            <div className="w-full lg:w-1/2">
                 <div>
                     <TitleResume title='Development Skill' subTitle={'Features'} />
                 </div>
 
-                <div className="bers">
+                <div className="bers ">
                     <div className="w-full mt-14 flex flex-col gap-6 ">
 
                         <div className="skill-set-bar overflow-x-hidden">

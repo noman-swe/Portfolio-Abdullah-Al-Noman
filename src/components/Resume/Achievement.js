@@ -9,16 +9,16 @@ const Achievement = () => {
         <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: .5 } }}
-            className='font-titleFont flex gap-20'>
+            className='font-titleFont'>
 
-            <div className=' w-full flex gap-20'>
+            <div className=' w-full flex flex-col lg:flex-row gap-10 lg:gap-20'>
 
                 <div className="left">
                     <div>
                         <TitleResume title='Left Achivement' subTitle={'Features'} />
                     </div>
 
-                    <div className='resume-card-section'>
+                    <div className='resume-card-section '>
                         <ResumeCard
                             subTitle='BSc in Software Enginering'
                             title="Daffodill International University"
